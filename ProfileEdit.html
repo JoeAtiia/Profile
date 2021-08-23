@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>Profile edit</Title>
+</head>
+<body>
+    <form target="_blank" method="get"  >
+        <div>
+            <legend>Account</legend>
+            <fieldset>
+            <label for="ProfilePic">Profile Picture</label>
+            <br>
+            <br>
+            <input type="file" name="file" id="ProfilePic">
+            <br>
+            <br>
+            <label for="UserName">User Name</label>
+            <br>
+            <input type="text" name="text" id="UserName" minlength="4" maxlength="8" required>
+            <br>
+            <br>
+            <label for="Password">Password</label>
+            <br>
+            <input type="password" name="password" id="Password" minlength="6" required>
+            <br>
+            <br>
+            </fieldset>
+        </div>
+        <div>
+            <legend>Contacts</legend>
+            <fieldset>
+                <label for="FBURL">Facebook:  </label>
+                <br>
+                <input type="url" name="url" id="FBURL">
+                <br>
+                <label for="EmailPu">Email:   </label>
+                <br>
+                <input type="email" name="email" id="EmailPu" required>
+                <br>
+                <label for="MobInp">Mobile number: </label>
+                <br>
+                <input type="number" name="number" id="MobInp" required>
+                <br>
+            </fieldset>
+        </div>
+        <input type="submit">
+        <input type="reset">
+        </form>
+            
+            <button>
+                <a href="Profile.html"><img src=leftarrow.png width=15px >Back</a>
+            </button>
+    
+</body>
+</html>
